@@ -1,0 +1,73 @@
+body{
+    background-color: #e9e9e9ce;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 60px;
+    padding-left: 10px;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar{
+    background-color: #fff;
+}
+
+.box-area{
+    width: 930px;
+}
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .box-area{
+        margin: 0 10px;
+    }
+    .left-box{
+        height: 100px;
+        overflow: hidden;
+    }
+    .right-box{
+        padding: 20px;
+    }
+}
+
+.botão{
+    background-color: #8a2828;
+    border-radius: 8px;
+}
+
+.titulo h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #8a2828;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.senha{
+    text-decoration: none;
+    font-weight: 500;
+    color: #8a2828;
+}
+
+.conta{
+    text-decoration: none;
+    font-weight: 500;
+    color: #8a2828;
+}
+
